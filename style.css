@@ -86,3 +86,54 @@
   padding-bottom: 100px;
   margin-top: 14px;
 }
+
+.project-container {
+  width: 100%;
+  box-sizing: border-box;
+  display: grid;
+  position: absolute;
+  top: 1600px;
+}
+
+.project-list:nth-of-type(odd) {
+  color: #fff;
+  width: 100vw;
+  height: 186px;
+  background-color: aqua;
+}
+
+.project-list:nth-of-type(1) {
+  background-image: url('./images/desktop7.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.project-list:nth-of-type(2n) {
+  width: 100%;
+  height: 156px;
+  background-color: #1a2236;
+}
+
+.project-list:nth-of-type(3) {
+  background-image: url('./images/desktop2.png');
+}
+
+.project-list:nth-of-type(5) {
+  background-image: url('./images/desktop3.png');
+  background-repeat: no-repeat;
+}
+
+.project-list:nth-of-type(7) {
+  background-image: url('./images/Desktop4.png'); 
+  background-repeat: no-repeat;
+} 
+
+.project-list:nth-of-type(9) {
+  background-image: url('./images/desktop5.png');
+  background-repeat: no-repeat;
+}
+
+.project-list:nth-of-type(11) {
+  background-image: url('./images/desktop6.png');
+  background-repeat: no-repeat;
+}
