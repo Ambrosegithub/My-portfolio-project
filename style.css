@@ -92,7 +92,7 @@
   box-sizing: border-box;
   display: grid;
   position: absolute;
-  top: 1600px;
+  top: 2000px;
 }
 
 .project-list:nth-of-type(odd) {
@@ -124,7 +124,7 @@
 }
 
 .project-list:nth-of-type(7) {
-  background-image: url('./images/Desktop4.png'); 
+  background-image: url('./images/Desktop4.png');
   background-repeat: no-repeat;
 } 
 
