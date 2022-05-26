@@ -32,13 +32,14 @@
   width: 74px;
 }
 
-#section-main {
+#second-main {
   width: 100vw;
-  display: block;
+  display: flex;
+  flex-direction: column;
   padding: 0 12px;
 }
 
-#section-main h1 {
+#second-main h1 {
   font-family: 400;
   font-size: 34px;
   color: #1a2236;
@@ -48,40 +49,33 @@
   max-width: 800px;
   height: 110px;
   text-align: start;
+  align-items: center;
 }
 
-#section-main p {
+#second-main p {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 20px;
   color: #1a2236;
-  font-style: regular;
+  font-style: normal;
   position: absolute;
   top: 208px;
-  left: 16px;
   text-align: start;
-}
-
-#second-main {
+  overflow-x: hidden;
   width: 100%;
-  height: 50px;
-  position: absolute;
-  top: 576px;
-  left: 16px;
-  background-color: #1a2236;
-  border: 1px solid black;
 }
 
 #second-main button {
   color: #fff;
   align-items: center;
-  height: 26.47px;
-  border: none;
+  border: 2px solid #1a2236;
   position: absolute;
   background-color: #1a2236;
-  top: -6px;
+  top: 560px;
   padding: 10px 40%;
   margin-top: 10px;
+  height: 50px;
+  width: 100%;
 }
 
 #second-main:hover {
@@ -94,6 +88,7 @@
   border: 2px solid #1a2236;
   background-color: #fff;
   color: #1a2236;
+  transition: linear 2s;
 }
 
 #second-main > button:focus {
