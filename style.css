@@ -12,7 +12,7 @@
   justify-content: space-between;
 }
 
-.header-section nav  {
+.header-section nav {
   font-size: 34px;
   width: auto;
 }
@@ -21,9 +21,9 @@
   transform: rotate(45deg);
   transform-origin: 20% 40%;
   width: 100px;
-  height: 100px; 
   background: rgb(202, 240, 11);
   transition: linear 2s;
+  height: 100px;
 }
 
 #header-section div {
