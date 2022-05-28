@@ -1,5 +1,5 @@
 ## Project Name
-"My Mobile version Portfolio"  is a project design for easy scalebility, accessibity, users friendly etc for so as to navigate through the web without any stress. Best tools and technologies was in high consideration during the ideal nuturing stage, debuging tools check was used('LINTERS') from the planning stage ro implemntation stage, so you free and safe ride is guaranty.
+"My Mobile version Portfolio"  is a project design for easy scalebility, accessibity, users friendly etc for so as to navigate through the web without any stress. Best tools and technologies was in high consideration during the ideal nuturing stage, debuging tools check was used('LINTERS') from the planning stage to implemntation stage, so your free and safe ride is guaranty.
 It is set up to meet both you needs our needs. 
 
 ## Built With
