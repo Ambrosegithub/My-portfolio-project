@@ -14,7 +14,7 @@ body {
 }
 
 #header-section {
-  width: 320px;
+  width: 100%;
   height: 104px;
   background-image: url('images/image-header.png');
   background-repeat: no-repeat;
@@ -58,6 +58,22 @@ body {
   width: 30px;
   height: 30px;
   padding-top: 15px;
+}
+
+.project-link a:hover {
+  text-decoration: underline;
+  border: 1px solid #98dede;
+}
+
+.imj-project-section img {
+  width: 100%;
+  margin: 0;
+}
+
+.project-link img:hover {
+  color: #98dede;
+  border: 1px solid #98dede;
+  padding: 0;
 }
 
 #header-section nav a {
@@ -113,14 +129,18 @@ body {
   margin-top: 10px;
 }
 
+.full-section-div {
+  margin: 0 1px;
+}
+
 #about-section button {
   background-color: #1a2236;
   color: #fff;
   padding-top: 7px;
   align-items: center;
-  width: 289px;
+  width: 96%;
   height: 50px;
-  margin: 16px 16px;
+  margin: 16px 2%;
   font-size: 16px;
 }
 
@@ -146,6 +166,15 @@ body {
   margin-top: 0;
 }
 
+#project-sections h2 {
+  text-align: start;
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 16px;
+  margin-bottom: 10px;
+  color: #1a2236;
+}
+
 #project-container {
   background-color: #fff;
 }
@@ -154,24 +183,19 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   gap: 4px;
-  padding: 2em 2em;
+  padding: 2em 0;
   margin: 4px 0 0 0;
-}
-
-#about-sction-div button:hover {
-  border-width: 2px;
-  border-style: solid;
-  border-color: #98dede;
 }
 
 #download {
   margin-left: 26px;
   height: 17.79px;
   width: 20.32px;
-  border-left: 2px solid #fff;
+  border-top: 2px solid #fff;
   border-bottom: 2px solid #fff;
   border-right: 2px solid #fff;
   padding: 4px;
+  transform: rotate(90deg);
 }
 
 #about-sction-div img:hover {
@@ -188,9 +212,9 @@ body {
   font-size: 14px;
   text-align: start;
   color: #1a2236;
-  width: 288px;
+  width: 96%;
   height: 126px;
-  margin: 20px 16px;
+  margin: 10px 2%;
 }
 
 #about-section form {
@@ -202,25 +226,28 @@ body {
   margin-top: 50px;
 }
 
-#language li {
-  width: 188px;
-  margin-left: 50px;
-  text-align: start;
-  padding: 1px 16px 1px 0;
-}
-
-#framework li {
-  width: 118px;
-  text-align: start;
-  margin-left: 50px;
-  padding: 1px 2px;
-}
-
-#skills li {
-  width: 90px;
-  color: #fff;
-  margin-left: 50px;
+.list-of-project ul {
+  list-style: none;
+  margin: 20px;
+  display: flex;
+  gap: 4px;
   padding: 4px 8px;
+}
+
+#language ul {
+  padding: 20px 50px;
+  text-align: start;
+}
+
+#framework ul {
+  text-align: start;
+  padding: 20px 50px;
+}
+
+#skills ul {
+  color: #fff;
+  padding: 20px 50px;
+  text-align: start;
 }
 
 #about-section-list ul li {
@@ -240,8 +267,8 @@ body {
 
 #language {
   height: 289px;
-  width: 289px;
-  margin: 8px 16px;
+  width: 96%;
+  margin: 8px 2%;
   position: relative;
   border-radius: 4px;
   color: #fff;
@@ -253,19 +280,20 @@ body {
   background-color: #1c528a;
 }
 
-#language:hover {
+#language ul li:hover {
   border-bottom: 2px solid #98dede;
+  padding: 0%;
 }
 
 #framework {
   height: 289px;
+  width: 96%;
+  margin: 8px 2%;
   border-radius: 4px;
   color: #fff;
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
-  width: 289px;
-  margin: 8px 16px;
-  background-image: url(./images/Vector5.png);
+  background-image: url(./images/ic_framework.png);
   background-repeat: no-repeat;
   background-position: bottom right;
   background-color: #e2505c;
@@ -273,40 +301,36 @@ body {
 
 #skills {
   height: 289px;
-  width: 289px;
-  margin: 8px 16px 0 16px;
+  width: 96%;
+  margin: 8px 2%;
   border-radius: 4px;
   color: #fff;
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
-  background-image: url();
+  background-image: url(./images/ic_skills.png);
   background-repeat: no-repeat;
   background-position: bottom right;
   background-color: #febf52;
 }
 
-#framework > li:hover {
+#framework ul li:hover {
   text-decoration: underline;
-  padding-bottom: -2px;
+  border-bottom: 2px solid #98dede;
 }
 
 #language h5 {
   text-align: start;
-  margin-left: 50px;
-  padding-bottom: 20px;
+  padding: 10px 50px;
 }
 
 #framework h5 {
   text-align: start;
-  margin-left: 50px;
-  padding-bottom: 20px;
+  padding: 10px 50px;
 }
 
 #skills h5 {
   text-align: start;
-  padding: 10px;
-  margin-left: 50px;
-  padding-bottom: 20px;
+  padding: 10px 50px;
 }
 
 main {
@@ -319,12 +343,11 @@ section {
 
 .list-of-project {
   background-color: #1a2236;
-  width: 320px;
   list-style: none;
   text-decoration: none;
   display: block;
   padding: 10px 0;
-  margin-bottom: 20px;
+  margin: 0;
 }
 
 .project-link {
@@ -337,14 +360,6 @@ section {
   margin-left: 30px;
   color: #fff;
   font-size: 10px;
-}
-
-.list-of-project ul {
-  list-style: none;
-  margin: 20px;
-  display: flex;
-  gap: 4px;
-  padding: 4px 8px;
 }
 
 .list-of-project h4 {
@@ -391,6 +406,6 @@ section {
 }
 
 .imj-project-sections {
-  height: 186px;
-  width: 320px;
+  border: coral 3px solid;
+  margin: 0;
 }
