@@ -14,13 +14,11 @@ body {
 }
 
 #header-section {
-  width: 100%;
+  width: 320px;
   height: 104px;
   background-image: url('images/image-header.png');
   background-repeat: no-repeat;
   background-position: top left;
-  background-size: contain;
-  margin: 0 2em;
 }
 
 #header-section div {
@@ -28,6 +26,10 @@ body {
   float: left;
   height: 74px;
   width: 74px;
+}
+
+#navbar-img {
+  margin-right: 8px;
 }
 
 .btn-container a {
@@ -48,7 +50,14 @@ body {
 .project-link a {
   text-decoration: none;
   color: #fff;
-  font-size: 20px;
+  font-size: 12px;
+  padding-top: 9px;
+}
+
+.project-link img {
+  width: 30px;
+  height: 30px;
+  padding-top: 15px;
 }
 
 #header-section nav a {
@@ -101,21 +110,18 @@ body {
   height: 50px;
   background-color: #1a2236;
   border: none;
-  padding: 10px 20%;
   margin-top: 10px;
-  width: 98%;
 }
 
-#about-sction-div button {
+#about-section button {
   background-color: #1a2236;
   color: #fff;
   padding-top: 7px;
   align-items: center;
-  width: 99.2%;
-  margin: 10px 0%;
+  width: 289px;
+  height: 50px;
+  margin: 16px 16px;
   font-size: 16px;
-  position: relative;
-  top: 10px;
 }
 
 #section-main button:hover {
@@ -126,7 +132,6 @@ body {
   background-image: url('./images/geometry.svg');
   background-repeat: no-repeat;
   background-position: auto center;
-  width: 100%;
   background-size: cover;
   height: 50px;
   padding-top: 10px;
@@ -138,7 +143,6 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   padding: 0;
-  border: 4px solid  #e2505c;
   margin-top: 0;
 }
 
@@ -146,13 +150,12 @@ body {
   background-color: #fff;
 }
 
-#about-sction-div {
+#about-section {
   display: grid;
   grid-template-columns: 1fr;
-  width: 100%;
   gap: 4px;
   padding: 2em 2em;
-  margin-top: -110px;
+  margin: 4px 0 0 0;
 }
 
 #about-sction-div button:hover {
@@ -161,10 +164,10 @@ body {
   border-color: #98dede;
 }
 
-#about-sction-div img {
+#download {
   margin-left: 26px;
-  height: 14px;
-  width: 14px;
+  height: 17.79px;
+  width: 20.32px;
   border-left: 2px solid #fff;
   border-bottom: 2px solid #fff;
   border-right: 2px solid #fff;
@@ -176,44 +179,78 @@ body {
   color: #98dede;
 }
 
-#about-sction-div h2 {
-  margin: 8%;
-}
-
-#about-sction-div p {
-  font-size: 24px;
-  text-align: start;
-  margin-left: 8%;
+#about-section h2 {
+  margin: 0 16px;
   color: #1a2236;
-  height: auto;
 }
 
-#about-sction-div form {
+#about-section p {
+  font-size: 14px;
+  text-align: start;
+  color: #1a2236;
+  width: 288px;
+  height: 126px;
+  margin: 20px 16px;
+}
+
+#about-section form {
   height: 60px;
-  max-width: 98%;
-  position: relative;
   background-color: #1a2236;
-  left: 8%;
-  right: 8%;
 }
 
 #about-section-list {
-  width: 100%;
-  margin: 30px 0%;
+  margin-top: 50px;
+}
+
+#language li {
+  width: 188px;
+  margin-left: 50px;
+  text-align: start;
+  padding: 1px 16px 1px 0;
+}
+
+#framework li {
+  width: 118px;
+  text-align: start;
+  margin-left: 50px;
+  padding: 1px 2px;
+}
+
+#skills li {
+  width: 90px;
+  color: #fff;
+  margin-left: 50px;
+  padding: 4px 8px;
+}
+
+#about-section-list ul li {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+  color: #fff;
+}
+
+#about-section-list h5 {
+  padding-top: 8px;
+  text-align: start;
 }
 
 #language {
   height: 289px;
-  width: 100%;
+  width: 289px;
+  margin: 8px 16px;
   position: relative;
   border-radius: 4px;
   color: #fff;
-  background-color: #1c528a;
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
   background-image: url(./images/hash1.png);
   background-repeat: no-repeat;
   background-position: bottom right;
+  background-color: #1c528a;
 }
 
 #language:hover {
@@ -222,43 +259,31 @@ body {
 
 #framework {
   height: 289px;
-  width: 100%;
-  position: relative;
   border-radius: 4px;
   color: #fff;
-  background-color: #e2505c;
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
-  margin: 26px 0;
-  background-image: url(./images/Ve.png);
+  width: 289px;
+  margin: 8px 16px;
+  background-image: url(./images/Vector5.png);
   background-repeat: no-repeat;
   background-position: bottom right;
+  background-color: #e2505c;
 }
 
 #skills {
   height: 289px;
-  width: 100%;
+  width: 289px;
+  margin: 8px 16px 0 16px;
   border-radius: 4px;
   color: #fff;
-  background-color: #febf52;
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
   background-image: url();
   background-repeat: no-repeat;
   background-position: bottom right;
+  background-color: #febf52;
 }
-
-#language li {
-  padding: 8px;
-  text-align: start;
-}
-
-#framework li {
-  padding: 8px;
-  text-align: start;
-}
-
-#skills li { padding: 8px; }
 
 #framework > li:hover {
   text-decoration: underline;
@@ -266,16 +291,22 @@ body {
 }
 
 #language h5 {
-  text-align: center;
+  text-align: start;
+  margin-left: 50px;
+  padding-bottom: 20px;
 }
 
 #framework h5 {
-  text-align: center;
+  text-align: start;
+  margin-left: 50px;
+  padding-bottom: 20px;
 }
 
 #skills h5 {
-  text-align: center;
+  text-align: start;
   padding: 10px;
+  margin-left: 50px;
+  padding-bottom: 20px;
 }
 
 main {
@@ -283,12 +314,12 @@ main {
 }
 
 section {
-  padding: 5em 2em;
+  padding: 2em;
 }
 
 .list-of-project {
   background-color: #1a2236;
-  width: 100%;
+  width: 320px;
   list-style: none;
   text-decoration: none;
   display: block;
@@ -299,10 +330,13 @@ section {
 .project-link {
   display: flex;
   border: 2px solid #fff;
-  width: 60%;
+  justify-content: space-around;
+  align-content: center;
+  width: 178px;
+  height: 44px;
   margin-left: 30px;
-  padding: 0.4em 1em;
   color: #fff;
+  font-size: 10px;
 }
 
 .list-of-project ul {
@@ -320,39 +354,43 @@ section {
 
 .project-list-1 {
   margin: 0.2em;
+  width: 49px;
+  height: 12px;
+  padding-bottom: 3px;
+  font-size: 8px;
   color: #1a2236;
-  width: 33%;
   text-align: center;
-  border: 2px solid  #1c528a;
-  background-color: aqua;
+  background-color: #98dede;
 }
 
 .project-list-2 {
   margin: 0.2em;
-  padding: 5px 5px;
   text-align: center;
-  width: 33%;
-  font-size: 12px;
-  border: 2px solid  #1c528a;
-  background-color: aqua;
+  width: 67px;
+  height: 12px;
+  padding-bottom: 3px;
+  font-size: 8px;
+  background-color: #98dede;
   color: #1a2236;
 }
 
 .project-list-3 {
   margin: 0.2em;
-  width: 33%;
+  width: 54px;
+  height: 12px;
+  font-size: 8px;
+  padding-bottom: 3px;
   text-align: center;
-  border: 2px solid  #1c528a;
-  background-color: aqua;
+  background-color: #98dede;
   color: #1a2236;
 }
 
 .img-list {
-  transform: rotate(-90deg);
-  margin-left: 30px;
+  width: 14.57px;
+  height: 15.35;
 }
 
 .imj-project-sections {
   height: 186px;
-  width: 100%;
+  width: 320px;
 }
