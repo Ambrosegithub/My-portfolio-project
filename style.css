@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
 
 * {
   margin: 0;
@@ -113,11 +114,18 @@ body {
 }
 
 .contact-form button {
-  background-color: #fafafa;
-  color: #1a2236;
+  background-color: #1a2236;
+  color: #f9f9fa;
   height: 44px;
   width: 99%;
   padding: auto;
+  border: 2px solid #78eefd;
+}
+
+.contact-form h2 {
+  font-size: 40px;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 700;
 }
 
 .contact-form p {
@@ -132,15 +140,15 @@ body {
 }
 
 .contact-form button:hover {
-  background-color: #1a2236;
-  color: #fafafa;
+  background-color: #fafafa;
+  color: #1a2236;
   border: 2px solid #fafafa;
 }
 
 .contact-form button:focus {
-  background-color: #1a2236;
-  color: #fafafa;
-  border: 3px solid #fafafa;
+  background-color: #fff;
+  color: #1a2236;
+  border: 3px solid #1a2236;
 }
 
 #section-main button {
@@ -155,7 +163,8 @@ body {
 #about-section button {
   background-color: #1a2236;
   color: #fff;
-  padding-top: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   align-items: center;
   width: 96%;
   height: 50px;
@@ -450,6 +459,7 @@ section {
   grid-template-columns: 1fr;
   width: 100%;
   height: 860px;
+  background-color: #f9f9fa;
 }
 
 label {
@@ -460,6 +470,8 @@ input {
   width: 98%;
   height: 52px;
   border-radius: 4px;
+  padding: 14px;
+  border: 2px solid #dfdfe0;
 }
 
 .input-field {
@@ -502,7 +514,6 @@ footer {
   background-color: #1a2236;
   height: 150px;
   display: block;
-  margin-bottom: 10px;
 }
 
 #footer-img {
