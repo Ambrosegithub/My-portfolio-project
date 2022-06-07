@@ -30,12 +30,12 @@ git
  
  ## Collaborators:
  
- ##Tracy Musongole
+- ##Tracy Musongole
   ## Social:
  Github:[@Elfin-git](https://github.com/Elfin-git)
  Twitter:[@tracy_muso](https://twitter.com/tracy_muso)
  
-  ##Aziz Rusmatov
+  -##Aziz Rusmatov
   ## Social:
  Github:[@AzizRAA](https://github.com/AzizRAA)
  
