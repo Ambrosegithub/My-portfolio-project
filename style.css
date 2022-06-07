@@ -1,12 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
 #header-section {
   width: 100%;
   height: 104px;
-  background-image: url('images/logo-image.svg');
+  background-image: url('images/image-header.png');
   background-repeat: no-repeat;
   background-position: top left;
-  background-size: contain;
 }
 
 #header-section div {
@@ -14,6 +26,54 @@
   float: left;
   height: 74px;
   width: 74px;
+}
+
+#navbar-img {
+  margin-right: 8px;
+}
+
+.btn-container a {
+  text-decoration: none;
+  width: 2000px;
+  height: 100px;
+  border: 1px solid #fff;
+  background-color: #1a2236;
+  color: #fff;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.project-link a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  padding-top: 9px;
+}
+
+.project-link img {
+  width: 30px;
+  height: 30px;
+  padding-top: 15px;
+}
+
+.project-link a:hover {
+  text-decoration: underline;
+  border: 1px solid #98dede;
+}
+
+.imj-project-section img {
+  width: 100%;
+  margin: 0;
+}
+
+.project-link img:hover {
+  color: #98dede;
+  border: 1px solid #98dede;
+  padding: 0;
 }
 
 #header-section nav a {
@@ -25,7 +85,7 @@
   display: flex;
   flex-direction: column;
   padding: 0 12px;
-}
+
 
 #section-main h1 {
   font-family: 400;
@@ -35,6 +95,7 @@
   max-width: 800px;
   height: 110px;
   text-align: start;
+  padding: 0 8px;
 }
 
 #section-main p {
@@ -45,6 +106,8 @@
   font-style: normal;
   left: 16px;
   text-align: start;
+  margin-top: 10px;
+  padding: 0 8px;
 }
 
 .list-item-container button {
@@ -86,11 +149,29 @@
   border: 2px solid #98dede;
 }
 
+.full-section-div {
+  margin: 0 1px;
+}
+
+#about-section button {
+  background-color: #1a2236;
+  color: #fff;
+  padding-top: 7px;
+  align-items: center;
+  width: 96%;
+  height: 50px;
+  margin: 16px 2%;
+  font-size: 16px;
+}
+
+#section-main button:hover {
+  border: 2px solid #98dede;
+}
+
 #second-section-bg-img {
-  background-image: url('./images/logo-image2.svg');
+  background-image: url('./images/geometry.svg');
   background-repeat: no-repeat;
   background-position: auto center;
-  width: 100%;
   background-size: cover;
   height: 50px;
   border: 2px solid tomato;
@@ -315,7 +396,7 @@
 
 #language:hover {
   border-bottom: 2px solid #98dede;
-}
+ }
 
 #framework {
   height: 289px;
