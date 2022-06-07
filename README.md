@@ -29,3 +29,17 @@ git
  Whatsapp tel: +393512463798
  Contact: +3938817911630, +393298582707.
  
+ ## Collaborators:
+ 
+- ## TRACY MUSONGOLE
+  ## Social:
+ Github:[@Elfin-git](https://github.com/Elfin-git)
+ Twitter:[@tracy_muso](https://twitter.com/tracy_muso)
+ 
+- ## AZIZ RUSMATOV
+  ## Social:
+ Github:[@AzizRAA](https://github.com/AzizRAA)
+ 
+
+ 
+ 
