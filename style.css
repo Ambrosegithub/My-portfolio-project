@@ -595,6 +595,113 @@ footer h6 {
     height: 100vh;
   }
 
+  .contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    place-items: center;
+    position: relative;
+    top: 16000;
+    border: #000 2px solid;
+  }
+
+  .contact-form p {
+    width: 40%;
+    height: 100px;
+    color: #1a2236;
+    text-align: center;
+    margin: 0 30% 80px 0;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #000;
+  }
+
+  .contact-form h2 {
+    height: 110px;
+    width: 40%;
+    margin: 0 30%;
+    font-size: 34px;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .contact-form button {
+    height: 26.76px;
+    width: 40%;
+    margin: 0 20%;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    left: 180px;
+  }
+
+  .form-dir {
+    display: flex;
+    border: 1px solid red;
+  }
+
+  label {
+    display: grid;
+    grid-template-rows: repeat(1fr);
+  }
+
+  label > span {
+    transition: 2s;
+    transform-origin: top left;
+  }
+
+  label > input[placeholder=" "]:not(:focus):placeholder-shown + span {
+    transform: translateY(1em) scale(1.25);
+    pointer-events: none;
+    opacity: 0.5;
+    position: relative;
+    left: 180px;
+  }
+
+  input {
+    width: 254px;
+    height: 60px;
+    border-radius: 4px;
+    display: flex;
+  }
+
+  .input-field {
+    width: 254px;
+    height: 60px;
+    border-radius: 4px;
+    display: flex;
+  }
+
+  #teal-img {
+    display: block;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+
+  #bg-contact-img1 {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 220px;
+  }
+
+  #btn-img {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  #bg-contact-img {
+    display: none;
+  }
+
   .about-section {
     width: 100%;
     margin-top: 120px;
