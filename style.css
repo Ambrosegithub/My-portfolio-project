@@ -226,6 +226,18 @@ form {
   margin: 0 1px;
 }
 
+#desktop-img3 {
+  display: none;
+}
+
+#desktop-imgA {
+  display: none;
+}
+
+#destop-img4 {
+  display: none;
+}
+
 #about-section button {
   background-color: #1a2236;
   color: #fff;
@@ -567,6 +579,10 @@ footer h6 {
   padding-top: 12px;
 }
 
+#desktop-img1a {
+  display: none;
+}
+
 #mobile-img {
   display: block;
 }
@@ -581,7 +597,7 @@ footer h6 {
 }
 
 #cross-img {
-  display: none;
+  display: block;
   width: 20px;
   height: 20px;
   margin-left: 24px;
@@ -737,16 +753,8 @@ footer h6 {
     transform: rotate(-90deg);
     font-size: 60px;
     position: absolute;
-    left: 25%;
+    left: 20%;
     top: 1100px;
-  }
-
-  #project-sections h2::before {
-    content: url(./images/Group\ 51.png);
-    position: absolute;
-    left: 5px;
-    top: 1100px;
-    border: 2px solid red;
   }
 
   #full-section-div1 {
@@ -754,7 +762,7 @@ footer h6 {
     float: right;
     margin-top: 0;
     margin-right: 0;
-    width: 44%;
+    width: 760px;
     height: 200px;
     position: absolute;
     right: 0;
@@ -826,11 +834,45 @@ footer h6 {
 
   #full-section-div3 {
     display: block;
-    width: 48.6%;
+    width: 63.6%;
     height: auto;
-    margin-left: 15%;
+    margin-left: 0;
     margin-top: 910px;
     border: #000 solid 2px;
+  }
+
+  #desktop-img1a {
+    display: block;
+    margin-left: 657px;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    border: 2px solid coral;
+  }
+
+  #desktop-img3 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-left: 863px;
+    border: 2px solid black;
+  }
+
+  #desktop-imgA {
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 2642.5px;
+  }
+
+  #destop-img4 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-left: 1080px;
+    margin-top: -200px;
   }
 
   #img-geo {
@@ -844,28 +886,18 @@ footer h6 {
 
   #full-section-div4 {
     width: 32%;
-    right: 3.3%;
-    position: absolute;
-    top: 2320px;
-    border: blue 2px solid;
+    margin-left: 963.6px;
+    margin-top: 0;
+    border: 2px solid green;
   }
 
   #full-section-div5 {
-    width: 25%;
+    width: 400px;
     right: 0;
     position: absolute;
     top: 1748px;
-    height: 25%;
-    border: #e2505c 2px solid;
-  }
-
-  #list-of-project2::before {
-    content: url(./images/image-geometry2.png);
-    position: absolute;
-    top: -22px;
-    right: 790.9px;
-    width: 25%;
-    margin-right: 1px;
+    height: 400px;
+    border: red 2px solid;
   }
 
   #full-section-div4::before {
@@ -874,15 +906,6 @@ footer h6 {
     right: 220px;
     margin-right: 10.5px;
     top: 999px;
-  }
-
-  #full-section-div5::after {
-    content: url(./images/Group\ 83.png);
-    width: 50%;
-    right: -29px;
-    position: absolute;
-    top: 1094px;
-    height: auto;
   }
 
   #full-section-div6 {
@@ -978,10 +1001,14 @@ footer h6 {
     margin-top: 20px;
   }
 
+  #cross-img {
+    display: none;
+  }
+
   #bg-contact-img1 {
     display: block;
     position: absolute;
-    left: 4px;
+    left: 0;
     bottom: 10px;
     margin-top: 20px;
   }
