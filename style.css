@@ -485,6 +485,10 @@ section {
   color: #1a2236;
 }
 
+.project-list-4 {
+  display: none;
+}
+
 .img-list {
   width: 14.57px;
   height: 15.35;
@@ -512,7 +516,7 @@ input {
 }
 
 textarea {
-  width: 98%;
+  width: 100%;
   height: 112px;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -770,10 +774,11 @@ footer h6 {
   #project-sections h2 {
     margin-left: 0;
     transform: rotate(-90deg);
-    font-size: 60px;
+    font-size: 110px;
     position: absolute;
-    left: 15%;
-    top: 1100px;
+    top: 1200px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
   }
 
   #full-section-div1 {
@@ -786,15 +791,6 @@ footer h6 {
     position: absolute;
     right: 0;
     margin-bottom: 0;
-  }
-
-  #full-section-div1::before {
-    content: url();
-    width: 400px;
-    height: 400px;
-    position: absolute;
-    right: 40%;
-    top: 1200px;
   }
 
   #imj-poject-section2 {
@@ -816,7 +812,7 @@ footer h6 {
     height: 175.42px;
     position: absolute;
     top: 2012.5px;
-    right: 0.5%;
+    right: 0%;
   }
 
   #imj-project-section img {
@@ -849,10 +845,9 @@ footer h6 {
 
   #list-of-project2::before {
     content: url(./images/image-geometry2.png);
-    margin-right: -400px;
     position: absolute;
-    top: -22px;
-    right: 805px;
+    top: -18px;
+    left: -124.8%;
   }
 
   .list-of-ptoject1 {
@@ -898,7 +893,7 @@ footer h6 {
     height: 100px;
     position: absolute;
     left: 0;
-    top: 2642.5px;
+    top: 2738.5px;
   }
 
   #destop-img4 {
@@ -930,6 +925,7 @@ footer h6 {
     right: 220px;
     margin-right: 10.5px;
     top: 999px;
+    border: #1a2236 2px solid;
   }
 
   #full-section-div6 {
@@ -948,8 +944,47 @@ footer h6 {
     display: none;
   }
 
+  .project-list-1 {
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+
   #list-of-project6 {
     display: none;
+  }
+
+  .project-list-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    padding: 20px 20px;
+    text-align: center;
+    margin: 0.2em;
+    font-size: 12px;
+    background-color: #98dede;
+    color: #1a2236;
+  }
+
+  .project-list-3 {
+    display: none;
+  }
+
+  .project-list-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.2em;
+    width: 54px;
+    height: 12px;
+    padding: 20px 40px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #98dede;
+    color: #1a2236;
   }
 
   .contact-form {
@@ -1003,6 +1038,7 @@ footer h6 {
   }
 
   input {
+    border: 1px solid #1a2236;
     width: 254px;
     height: 60px;
     border-radius: 4px;
@@ -1014,6 +1050,11 @@ footer h6 {
     height: 60px;
     border-radius: 4px;
     display: flex;
+    margin-left: -4px;
+  }
+
+  textarea {
+    width: 100%;
   }
 
   #teal-img {
@@ -1055,7 +1096,7 @@ footer h6 {
     height: auto;
     float: right;
     position: absolute;
-    right: 10%;
+    right: 5%;
     margin-top: 150px;
   }
 
@@ -1068,7 +1109,7 @@ footer h6 {
     height: auto;
     float: left;
     position: relative;
-    left: 10%;
+    left: 5%;
     margin-top: 150px;
   }
 
@@ -1126,20 +1167,19 @@ footer h6 {
     position: absolute;
     bottom: -74px;
     right: 0;
-    width: 40%;
-    margin-right: 1%;
+    width: 60%;
     padding-top: 20px;
   }
 
   #footer-img-left {
     display: flex;
+    gap: 3%;
     align-items: center;
     align-content: center;
     position: absolute;
     bottom: -74px;
     left: 4%;
     width: 40%;
-    margin-right: 1%;
     color: #88ccce;
     padding: 10px;
   }
