@@ -220,6 +220,7 @@ form {
   background-color: #1a2236;
   border: none;
   margin-top: 10px;
+
 }
 
 .full-section-div {
@@ -228,6 +229,7 @@ form {
 
 #desktop-img3 {
   display: none;
+
 }
 
 #desktop-imgA {
@@ -301,6 +303,7 @@ form {
   border-right: 2px solid #fff;
   padding: 4px;
   transform: rotate(90deg);
+
 }
 
 #about-sction-div img:hover {
