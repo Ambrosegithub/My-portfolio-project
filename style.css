@@ -512,7 +512,7 @@ input {
 }
 
 .input-field {
-  margin: 12px 20px;
+  margin-left: 0;
 }
 
 textarea {
@@ -1017,6 +1017,7 @@ footer h6 {
 
   .form-dir {
     display: flex;
+    gap: 10px;
   }
 
   label {
@@ -1050,7 +1051,6 @@ footer h6 {
     height: 60px;
     border-radius: 4px;
     display: flex;
-    margin-left: -4px;
   }
 
   textarea {
