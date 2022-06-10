@@ -67,6 +67,7 @@ body {
 }
 
 #navbar-img {
+  margin-top: 18px;
   margin-right: 8px;
 }
 
@@ -140,6 +141,7 @@ nav .navbar-list-items a {
   width: 100%;
   height: 860px;
   background-color: #f9f9fa;
+  border: 2px solid yellow;
 }
 
 .contact-form p {
@@ -191,17 +193,17 @@ form {
   margin-bottom: 0%;
 }
 
-#section-main h1 {
+#section-main-text h1 {
   font-family: 400;
   font-size: 34px;
   color: #1a2236;
   font-style: normal;
-  height: 110px;
+  height: auto;
   text-align: start;
-  padding: 0 8px;
+  /* padding: 0 8px; */
 }
 
-#section-main p {
+#section-main-text p {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -220,6 +222,10 @@ form {
   background-color: #1a2236;
   border: none;
   margin-top: 10px;
+}
+
+#section-main-img2 {
+  display: none;
 }
 
 .full-section-div {
@@ -620,6 +626,14 @@ footer h6 {
   margin-top: 10px;
 }
 
+#desktop-versione1 {
+  display: none;
+}
+
+#desktop-version2 {
+  display: none;
+}
+
 /* media query */
 
 @media screen and (min-width: 768px) {
@@ -642,6 +656,50 @@ footer h6 {
   #nav-list2 {
     margin: 2px 30%;
     padding: 0 20px;
+  }
+
+  #project-sections1 {
+    display: block;
+  }
+
+  #desktop-versione1 { 
+    display: none;
+    border: 2px solid red;
+  }
+
+  #project-container h2 {
+    transform: rotate(-90deg);
+    font-size: 110px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 12%;
+    margin-right: 70%;
+  }
+
+  #desktop-imgA {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 3px solid yellow;
+    position: relative;
+    left: 30%;
+  }
+
+  #desktop-version2 {
+    display: none;
+    margin-top: 150px;
+  }
+
+   #desktop-version2right {
+    display: none;
+    flex-direction: column;
+    border: green solid 2px;
+    margin-right: 0;
+  }
+
+  #desktop5 {
+    margin-right: ;
+    margin-top: 200px;
   }
 
   #nav-list3 {
@@ -690,23 +748,26 @@ footer h6 {
     display: none;
   }
 
-  #section-main h1,
-  p {
-    content: '';
-    width: 40%;
-    height: 350px;
-    padding: 1em;
+  #section-main-text h1 {
+    padding: 10px 0.2em;
     float: left;
-    margin-right: 0;
-    margin-top: 0;
     font-size: 54px;
-    margin-left: 2%;
+    margin-left: 0.2%;
+
   }
 
-  .contact-form button {
+  #section-main-text p {
+    padding: 10px 0.5em;
+    text-align: start;
+    float: left;
+    font-size: 22px;
+    margin: 5px 0.05em 1em  0;
+  }
+
+  .contact-form-txt button {
     height: 26.76px;
     width: 40%;
-    margin: 0 20%;
+    margin-bottom: -16px;
     font-size: 14px;
     font-weight: 400;
     text-align: center;
@@ -716,22 +777,21 @@ footer h6 {
   }
 
   #section-main button {
-    content: '';
+    display: flex;
     width: 244px;
-    height: 70px;
     padding: 1em;
     float: left;
     margin-right: 0;
-    margin-top: -30px;
+    margin-top: 0;
     font-size: 24px;
     margin-left: 2%;
   }
 
   #btn-imgA {
-    display: inline-block;
+    display: block;
     position: absolute;
-    left: 42%;
-    margin-top: -20px;
+    left: 39%;
+    top: 820px;
   }
 
   #second-section-bg-img {
@@ -740,24 +800,31 @@ footer h6 {
 
   #section-main {
     width: 100%;
-    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 30px;
+    padding-bottom: 0;
   }
 
-  #section-main::after {
-    content: url(./images/image-geometry1.png);
-    margin-right: 0;
-    position: absolute;
-    top: 105px;
-    right: 6.3%;
-    z-index: 10;
-    width: 40%;
-    height: 1600px;
+  #section-main-img2 {
+    display: block;
+    margin-top: -11%;
+    margin-right: -30px;
+    margin-bottom: 0;
+    width: 30%;
+  }
+
+  #section-main-text {
+    width: 65%;
+    margin-top: 15%;
+    margin-left: 50px;
+    justify-content: center;
   }
 
   #project-sections {
     width: 100%;
-    margin-right: 0%;
-    margin-left: 0%;
+    border: 1px solid red;
+    margin: 50px 0;
   }
 
   .contact-form h2 {
@@ -771,48 +838,47 @@ footer h6 {
     text-align: center;
   }
 
-  #project-sections h2 {
-    margin-left: 0;
-    transform: rotate(-90deg);
-    font-size: 110px;
-    position: absolute;
-    top: 1200px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+  .full-section-div .fix {
+    position: relative;
+  }
+
+  #img-div2 {
+    position: relative;
   }
 
   #full-section-div1 {
     content: '';
     float: right;
-    margin-top: 0;
-    margin-right: 0;
-    width: 60%;
+    right: 0;
+    width: 54%;
     height: 200px;
     position: absolute;
-    right: 0;
-    margin-bottom: 0;
+    top: 1040px;
+    border: red 2px solid;
   }
 
   #imj-poject-section2 {
     width: 30%;
+    border: rgb(128, 43, 0) 2px solid;
   }
 
   #list-of-project2-img {
     display: block;
-    position: absolute;
-    width: 465px;
-    height: 270px;
-    left: 1110px;
-    top: 1745px;
+    position: relative;
+    width: 33%;
+    margin-top: 530px;
+    right: -33%;
   }
 
   #list-of-project2-imgb {
     display: block;
-    width: 350.75px;
-    height: 175.42px;
-    position: absolute;
-    top: 2012.5px;
-    right: 0%;
+    width: 25%;
+    position: relative;
+    /* top: 2012.5px; */
+    right: -75%;
+    border: 3px solid red;
+    margin-top: 0;
+    height: 150px;
   }
 
   #imj-project-section img {
@@ -821,19 +887,25 @@ footer h6 {
 
   #list-of-project1 {
     float: right;
-    margin-top: 0;
-    margin-right: 0;
-    width: 60%;
-    height: 353px;
+    width: 54%;
+    height: auto;
     cursor: pointer;
     position: absolute;
     right: 0;
     top: 1218px;
+    border: 2px solid red;
     margin-bottom: 50px;
+    padding: 35px 0 35px 20px;
+  }
+
+  .list-of-project h4 {
+    color: #fff;
+    margin-left: 30px;
+    font-size: 34px;
+    font-weight: 700;
   }
 
   #list-of-project2 {
-    width: 27%;
     margin-right: 0%;
     cursor: pointer;
     position: absolute;
@@ -841,13 +913,15 @@ footer h6 {
     top: 1570px;
     margin-top: 20px;
     margin-bottom: 30px;
+    border: 2px solid red;
   }
 
   #list-of-project2::before {
     content: url(./images/image-geometry2.png);
+    margin-right: 100%;
     position: absolute;
-    top: -18px;
-    left: -124.8%;
+    margin-top: -25%;
+    right: 0;
   }
 
   .list-of-ptoject1 {
@@ -857,51 +931,45 @@ footer h6 {
   #full-section-div2 {
     display: block;
     float: left;
-    width: 40%;
+    width: 35.4%;
     height: auto;
-    margin-left: 1%;
-    margin-top: 550px;
-    margin-right: 20%;
+    margin-left: 0;
+    margin-top: -17%;
+    margin-right: 0;
   }
 
   #full-section-div3 {
     display: block;
-    width: 63.6%;
+    width: 50.6%;
     height: auto;
     margin-left: 0;
-    margin-top: 910px;
+    margin-top: -31.5%;
   }
 
   #desktop-img1a {
     display: block;
-    margin-left: 26.7%;
+    margin-left: 32.5%;
     width: 200px;
-    height: 200px;
-    margin-top: 50px;
+    /* height: 200px; */
+    margin-top: -23%;
   }
 
   #desktop-img3 {
     display: block;
     width: 100px;
     height: 100px;
-    margin-left: 863px;
-  }
-
-  #desktop-imgA {
-    display: block;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    left: 0;
-    top: 2738.5px;
+    margin-left: 57%;
+    border: 3px solid red;
   }
 
   #destop-img4 {
     display: block;
+    position: relative;
     width: 100px;
     height: 100px;
-    margin-left: 1080px;
+    right: -70%;
     margin-top: -200px;
+    border: 3px solid green;
   }
 
   #img-geo {
@@ -911,11 +979,12 @@ footer h6 {
     top: 2000px;
     width: 200px;
     height: 200px;
+    border: 3px solid blue;
   }
 
   #full-section-div4 {
     width: 32%;
-    margin-left: 963.6px;
+    margin-left: 63.6%;
     margin-top: 0;
   }
 
@@ -925,7 +994,7 @@ footer h6 {
     right: 220px;
     margin-right: 10.5px;
     top: 999px;
-    border: #1a2236 2px solid;
+    border: 2px  solid;
   }
 
   #full-section-div6 {
@@ -955,8 +1024,8 @@ footer h6 {
   #list-of-project6 {
     display: none;
   }
-
-  .project-list-2 {
+ 
+ .project-list-2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -988,25 +1057,26 @@ footer h6 {
   }
 
   .contact-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-direction: column;
+    display: grid;
     width: 100%;
-    height: auto;
     place-items: center;
     position: relative;
-    top: 16000;
+    border: 2px solid yellow;
+    margin-bottom: -32px;
   }
 
-  .contact-form p {
-    width: 40%;
-    height: 100px;
+  #contact-form-txt {
+    border: 2px solid lime;
+    width: 70%;
+  }
+
+  #contact-form-txt p {
+    width: 100%;
+    height: 50px;
     color: #1a2236;
     align-self: center;
     text-align: center;
-    margin: 10px 30%;
+    margin-bottom: 30px;
     font-size: 16px;
     font-weight: 400;
   }
@@ -1017,7 +1087,8 @@ footer h6 {
 
   .form-dir {
     display: flex;
-    gap: 10px;
+    gap: 5px;
+    width: 100%;
   }
 
   label {
@@ -1040,14 +1111,14 @@ footer h6 {
 
   input {
     border: 1px solid #1a2236;
-    width: 254px;
+    width: 100%;
     height: 60px;
     border-radius: 4px;
     display: flex;
   }
 
   .input-field {
-    width: 254px;
+    width: 100%;
     height: 60px;
     border-radius: 4px;
     display: flex;
@@ -1070,9 +1141,12 @@ footer h6 {
   #bg-contact-img1 {
     display: block;
     position: absolute;
+    width: 15%;
+    height: 200px;
     left: 0;
     bottom: 10px;
     margin-top: 20px;
+    border: 2px solid blue;
   }
 
   #btn-img {
@@ -1080,6 +1154,9 @@ footer h6 {
     position: absolute;
     right: 0;
     bottom: 0;
+    width: 15%;
+    height: 150px;
+    border: 2px solid green;
   }
 
   #bg-contact-img {
@@ -1089,15 +1166,30 @@ footer h6 {
   .about-section {
     width: 100%;
     margin-top: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+  }
+
+  .about-section p {
+    width: 100%;
+  }
+
+  .about-section-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
   }
 
   .about-section-right {
-    width: 40%;
+    width: 25%;
     height: auto;
     float: right;
     position: absolute;
-    right: 5%;
+    right: 0;
     margin-top: 150px;
+    border: lime solid 2px;
   }
 
   #resume-img {
@@ -1105,16 +1197,20 @@ footer h6 {
   }
 
   .about-section-left {
-    width: 40%;
+    width: 100%;
+    margin-right: 2%;
     height: auto;
     float: left;
+    margin-left: 3%;
     position: relative;
-    left: 5%;
+    left: 0;
     margin-top: 150px;
+    border: blue solid 2px;
   }
 
   #about-section-list {
     display: grid;
+    width: 100%;
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -1126,14 +1222,12 @@ footer h6 {
 
   #framework,
   #language {
-    content: '';
-    width: 289px;
+    width: 100%;
     height: 299px;
   }
 
   #skills {
-    content: '';
-    width: 289px;
+    width: 100%;
     height: 289px;
     margin-top: -10px;
   }
@@ -1141,6 +1235,7 @@ footer h6 {
   footer {
     content: '';
     margin-bottom: 0;
+    margin-top: 0;
     width: 100%;
   }
 
@@ -1173,13 +1268,13 @@ footer h6 {
 
   #footer-img-left {
     display: flex;
+    left: 5%;
     gap: 3%;
     align-items: center;
     align-content: center;
     position: absolute;
     bottom: -74px;
-    left: 4%;
-    width: 40%;
+    width: 37%;
     color: #88ccce;
     padding: 10px;
   }
