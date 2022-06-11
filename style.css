@@ -107,7 +107,7 @@ button:active {
 .project-link button {
   color: #fff;
   font-size: 12px;
-  padding-top: 9px;
+  padding-bottom: 30px;
   background-color: #1a2236;
   border: none;
 }
@@ -117,9 +117,10 @@ nav .navbar-list-items a {
 }
 
 .project-link img {
-  width: 30px;
-  height: 30px;
-  padding-top: 15px;
+  width: 20px;
+  height: 20px;
+  padding-top: 8px;
+  margin-left: 6px;
 }
 
 .contact-form button {
@@ -133,13 +134,15 @@ nav .navbar-list-items a {
 .project-link {
   display: flex;
   border: 2px solid #fff;
-  justify-content: space-around;
+  justify-content: center;
   align-content: center;
   width: 178px;
+  background-color: #1a2236;
   height: 44px;
   margin-left: 30px;
   color: #fff;
   font-size: 10px;
+  padding-bottom: -10px;
 }
 
 .project-link:hover {
@@ -149,6 +152,15 @@ nav .navbar-list-items a {
 }
 
 .project-link button:hover {
+  background-color: #fff;
+  color: #1a2236;
+  font-weight: 400;
+  font-size: 18px;
+  padding: none;
+  border: none;
+}
+
+.project-link button:active {
   background-color: #fff;
   color: #1a2236;
   font-weight: 400;
@@ -208,6 +220,48 @@ nav .navbar-list-items a {
   border: 3px solid #6da1a8;
 }
 
+#section-main button {
+  color: #fff;
+  align-items: center;
+  height: 50px;
+  background-color: #1a2236;
+  border: 1px solid white;
+  margin-top: 10px;
+}
+
+#about-section button {
+  background-color: #1a2236;
+  width: 96%;
+  height: 50px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+#about-section button:hover {
+  background-color: #fff;
+  color: #1a2236;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  height: 50px;
+  margin: 16px 2%;
+  font-size: 16px;
+}
+
+#about-section button:active {
+  background-color: #fff;
+  color: #1a2236;
+  border: 3px solid #1a2236;
+}
+
+#section-main button:hover {
+  align-items: center;
+  color: #1a2236;
+  height: 50px;
+  background-color: #fff;
+  border: 2px solid #1a2236;
+}
+
 form {
   display: block;
   margin-top: 10px;
@@ -240,15 +294,6 @@ form {
   padding: 0 8px;
 }
 
-#section-main button {
-  color: #fff;
-  align-items: center;
-  height: 50px;
-  background-color: #1a2236;
-  border: none;
-  margin-top: 10px;
-}
-
 #section-main-img2 {
   display: none;
 }
@@ -269,20 +314,13 @@ form {
   display: none;
 }
 
-#about-section button {
-  background-color: #1a2236;
-  color: #fff;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  align-items: center;
-  width: 96%;
-  height: 50px;
-  margin: 16px 2%;
-  font-size: 16px;
-}
-
-#section-main button:hover {
-  border: 2px solid #98dede;
+#section-main button:active {
+  background-color: #fff;
+  color: #1a2236;
+  font-weight: 400;
+  font-size: 18px;
+  padding: none;
+  border: none;
 }
 
 #second-section-bg-img {
