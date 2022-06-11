@@ -141,12 +141,10 @@ nav .navbar-list-items a {
   width: 100%;
   height: 860px;
   background-color: #f9f9fa;
-  border: 2px solid yellow;
 }
 
 .contact-form p {
   width: 96%;
-  height: 63px;
   color: #1a2236;
   margin-bottom: 20px;
   text-align: start;
@@ -200,7 +198,6 @@ form {
   font-style: normal;
   height: auto;
   text-align: start;
-  /* padding: 0 8px; */
 }
 
 #section-main-text p {
@@ -261,9 +258,8 @@ form {
 }
 
 #second-section-bg-img {
-  background-image: url('./images/geometry.svg');
-  background-repeat: no-repeat;
-  background-position: auto center;
+  display: block;
+  width: 90%;
   height: 50px;
   padding-top: 10px;
   padding-bottom: 100px;
@@ -501,7 +497,6 @@ section {
 }
 
 .imj-project-sections {
-  border: coral 3px solid;
   margin: 0;
 }
 
@@ -662,9 +657,19 @@ footer h6 {
     display: block;
   }
 
-  #desktop-versione1 { 
+  #desktop-versione1 {
     display: none;
-    border: 2px solid red;
+  }
+
+  .contact-form h2 {
+    height: 110px;
+    width: 40%;
+    font-family: 'Playfair Display', sans-serif;
+    margin: 0 30%;
+    font-size: 34px;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+    text-align: center;
   }
 
   #project-container h2 {
@@ -678,11 +683,9 @@ footer h6 {
 
   #desktop-imgA {
     display: block;
-    width: 100px;
-    height: 100px;
-    border: 3px solid yellow;
+    width: 150px;
+    height: 150px;
     position: relative;
-    left: 30%;
   }
 
   #desktop-version2 {
@@ -690,15 +693,14 @@ footer h6 {
     margin-top: 150px;
   }
 
-   #desktop-version2right {
+  #desktop-version2right {
     display: none;
     flex-direction: column;
-    border: green solid 2px;
     margin-right: 0;
   }
 
   #desktop5 {
-    margin-right: ;
+    margin-right: 0;
     margin-top: 200px;
   }
 
@@ -753,7 +755,6 @@ footer h6 {
     float: left;
     font-size: 54px;
     margin-left: 0.2%;
-
   }
 
   #section-main-text p {
@@ -823,19 +824,7 @@ footer h6 {
 
   #project-sections {
     width: 100%;
-    border: 1px solid red;
     margin: 50px 0;
-  }
-
-  .contact-form h2 {
-    height: 110px;
-    width: 40%;
-    font-family: 'Playfair Display', sans-serif;
-    margin: 0 30%;
-    font-size: 34px;
-    letter-spacing: 0.2em;
-    font-weight: 400;
-    text-align: center;
   }
 
   .full-section-div .fix {
@@ -854,29 +843,26 @@ footer h6 {
     height: 200px;
     position: absolute;
     top: 1040px;
-    border: red 2px solid;
   }
 
   #imj-poject-section2 {
     width: 30%;
-    border: rgb(128, 43, 0) 2px solid;
   }
 
   #list-of-project2-img {
     display: block;
     position: relative;
-    width: 33%;
-    margin-top: 530px;
-    right: -33%;
+    width: 32.5%;
+    margin-top: 555px;
+    right: -32%;
+    z-index: 1;
   }
 
   #list-of-project2-imgb {
     display: block;
     width: 25%;
     position: relative;
-    /* top: 2012.5px; */
     right: -75%;
-    border: 3px solid red;
     margin-top: 0;
     height: 150px;
   }
@@ -893,7 +879,6 @@ footer h6 {
     position: absolute;
     right: 0;
     top: 1218px;
-    border: 2px solid red;
     margin-bottom: 50px;
     padding: 35px 0 35px 20px;
   }
@@ -913,7 +898,6 @@ footer h6 {
     top: 1570px;
     margin-top: 20px;
     margin-bottom: 30px;
-    border: 2px solid red;
   }
 
   #list-of-project2::before {
@@ -942,15 +926,14 @@ footer h6 {
     display: block;
     width: 50.6%;
     height: auto;
-    margin-left: 0;
-    margin-top: -31.5%;
+    margin-right: -100%;
+    margin-top: -25%;
   }
 
   #desktop-img1a {
     display: block;
     margin-left: 32.5%;
     width: 200px;
-    /* height: 200px; */
     margin-top: -23%;
   }
 
@@ -958,8 +941,7 @@ footer h6 {
     display: block;
     width: 100px;
     height: 100px;
-    margin-left: 57%;
-    border: 3px solid red;
+    margin-left: 42%;
   }
 
   #destop-img4 {
@@ -967,9 +949,8 @@ footer h6 {
     position: relative;
     width: 100px;
     height: 100px;
-    right: -70%;
+    right: -51%;
     margin-top: -200px;
-    border: 3px solid green;
   }
 
   #img-geo {
@@ -979,22 +960,20 @@ footer h6 {
     top: 2000px;
     width: 200px;
     height: 200px;
-    border: 3px solid blue;
   }
 
   #full-section-div4 {
     width: 32%;
-    margin-left: 63.6%;
+    margin-left: 50%;
     margin-top: 0;
   }
 
   #full-section-div4::before {
-    content: url(./images/Shape.png);
+    content: url(./images/Shape1b.png);
     position: absolute;
     right: 220px;
     margin-right: 10.5px;
     top: 999px;
-    border: 2px  solid;
   }
 
   #full-section-div6 {
@@ -1024,8 +1003,8 @@ footer h6 {
   #list-of-project6 {
     display: none;
   }
- 
- .project-list-2 {
+
+  .project-list-2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1061,12 +1040,10 @@ footer h6 {
     width: 100%;
     place-items: center;
     position: relative;
-    border: 2px solid yellow;
     margin-bottom: -32px;
   }
 
   #contact-form-txt {
-    border: 2px solid lime;
     width: 70%;
   }
 
@@ -1146,7 +1123,6 @@ footer h6 {
     left: 0;
     bottom: 10px;
     margin-top: 20px;
-    border: 2px solid blue;
   }
 
   #btn-img {
@@ -1156,40 +1132,43 @@ footer h6 {
     bottom: 0;
     width: 15%;
     height: 150px;
-    border: 2px solid green;
   }
 
   #bg-contact-img {
     display: none;
   }
 
-  .about-section {
+  #about-section {
     width: 100%;
-    margin-top: 120px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 10%;
+    grid-template-columns: 65% 33%;
+    padding: 30px;
+    margin: 30px 0;
   }
 
-  .about-section p {
-    width: 100%;
+  #about-section p {
+    font-size: 14px;
+    text-align: center;
+    color: #1a2236;
+    margin: 10px 1%;
   }
 
   .about-section-container {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10%;
+    grid-template-columns: 65% 33%;
+    gap: 20%;
+    margin-left: -30px;
   }
 
   .about-section-right {
-    width: 25%;
+    width: 30%;
     height: auto;
-    float: right;
+    margin-right: -2%;
     position: absolute;
     right: 0;
-    margin-top: 150px;
-    border: lime solid 2px;
+    margin-top: 55px;
   }
 
   #resume-img {
@@ -1197,27 +1176,17 @@ footer h6 {
   }
 
   .about-section-left {
-    width: 100%;
-    margin-right: 2%;
+    width: 50%;
     height: auto;
-    float: left;
-    margin-left: 3%;
+    margin-right: 4.5%;
     position: relative;
-    left: 0;
-    margin-top: 150px;
-    border: blue solid 2px;
+    margin-top: 50px;
   }
 
   #about-section-list {
     display: grid;
     width: 100%;
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .about-section-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0;
   }
 
   #framework,
