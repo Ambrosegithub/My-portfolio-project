@@ -1307,9 +1307,7 @@ footer h6 {
     padding: 10px;
   }
 
-  /*  #proj1  */
-
-  .animate {
+  .Animate {
     -webkit-animation: spin 4s linear infinite;
     animation: spin 4s linear infinite;
   }
