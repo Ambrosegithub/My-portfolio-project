@@ -98,6 +98,12 @@ body {
   font-size: 16px;
 }
 
+button:active {
+  background-color: #fff;
+  color: #1a2236;
+  border: 4px solid;
+}
+
 .project-link button {
   color: #fff;
   font-size: 12px;
@@ -139,7 +145,7 @@ nav .navbar-list-items a {
 .project-link:hover {
   background-color: #fff;
   color: #1a2236;
-  border: #88ccce solid 2px;
+  border: #1a2236 3px solid;
 }
 
 .project-link button:hover {
