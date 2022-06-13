@@ -1306,4 +1306,29 @@ footer h6 {
     color: #88ccce;
     padding: 10px;
   }
+
+  #proj1 {
+    -webkit-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+  }
+
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+
+  .animate {
+    -webkit-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+  }
+
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
 }
