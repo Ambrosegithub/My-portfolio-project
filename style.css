@@ -1245,7 +1245,7 @@ footer h6 {
   #about-section-list {
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(2, 1fr)git;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   #framework,
