@@ -406,7 +406,7 @@ form {
   font-size: 18px;
   line-height: 27px;
   letter-spacing: -0.0525em;
-  color: #fff;
+  color: #f2f2f2;
 }
 
 #about-section-list h5 {
@@ -439,7 +439,7 @@ form {
   width: 96%;
   margin: 8px 2%;
   border-radius: 4px;
-  color: #fff;
+  color: #f2f2f2;
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
   background-image: url(./images/ic_framework.png);
