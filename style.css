@@ -65,6 +65,7 @@ body {
 .nav-menu a {
   text-decoration: none;
   color: #1a2236;
+  margin: 10px;
 }
 
 #header-section #navbar-container nav ul {
@@ -408,6 +409,7 @@ form {
 
 li {
   list-style: none;
+  margin: 4px;
 }
 
 #about-section-list ul li {
@@ -703,7 +705,7 @@ header {
 #dots {
   width: 50px;
   height: 50px;
-  top: 220px;
+  top: 580px;
   left: 90px;
   position: absolute;
   align-self: flex-end;
@@ -719,7 +721,8 @@ header {
 
 #dots2 {
   position: absolute;
-  left: 60px;
+  left: -10px;
+  top: -6px;
 }
 
 .navbar {
@@ -754,14 +757,15 @@ header {
 .hamburger {
   display: block;
   cursor: pointer;
-  margin-right: 10px;
+  margin-right: -20px;
+  margin-top: 100px;
 }
 
 .bar {
   display: block;
   width: 25px;
   height: 3px;
-  margin: 5px auto;
+  margin: 5px 0;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #000;
@@ -781,21 +785,22 @@ header {
 
 .nav-menu {
   position: fixed;
+  width: 94%;
   top: -100%;
-  left: 10px;
+  left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10px;
+  gap: 2px;
   flex-direction: column;
   text-align: center;
   transition: 1s;
-  width: 85%;
   color: #1a2236;
   right: 50%;
   margin-bottom: 12px;
   z-index: 999;
   background-color: #fff;
+  height: 100vh;
 }
 
 .nav-item {
@@ -803,7 +808,7 @@ header {
 }
 
 .nav-menu.active {
-  top: 10px;
+  top: 0;
 }
 
 /* media query */
@@ -825,8 +830,15 @@ header {
     display: none;
   }
 
+  #menu-bar {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 20px;
+  }
+
   .nav-menu {
-    display: none;
+    display: flex;
   }
 
   #navbar-img {
@@ -923,10 +935,27 @@ header {
     width: 100%;
   }
 
-  #header-section #navbar-container nav ul {
+  #img-mobile {
+    display: none;
+  }
+
+  #dots {
+    display: none;
+  }
+
+  #dots2 {
+    display: none;
+  }
+
+  #dots1 {
+    display: none;
+  }
+
+  #header-section .navbar ul {
     display: flex;
     width: 100%;
     list-style-type: none;
+    flex-direction: row;
     text-decoration: none;
     justify-content: center;
     align-items: center;
@@ -935,6 +964,12 @@ header {
     top: 0;
     height: 104px;
     padding: 10px;
+    border: #000 solid 2px;
+  }
+
+  #header-section .navbar ul li a {
+    display: flex;
+    margin: 14px;
   }
 
   #left-float {
