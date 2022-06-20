@@ -9,23 +9,40 @@
   </head>
   <body>
     <header id="header-section">
-      <div id="left-float">
-        <img src="./images/image-header.png" alt="header-logo" />
+      <nav class="navbar">
+        <div class="img-nav">
+        <a href="#" class="nav-branding"><img src="/images/image-header.png" alt=""></a>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
       </div>
-      <div id="right-float">
-        <img id="navbar-img" src="./images/menu.svg" alt="" />
-      </div>
-      <div id="navbar-container">
-        <nav>
-          <ul class="navbar-list-items">
-            <li><a id="nav-list1" href=""> Hello</a></li>
-            <li><a id="nav-list2" href="">Portfolio</a></li>
-            <li><a id="nav-list3" href="">About</a></li>
-            <li><a id="nav-list4" href="">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    </div>
+        <ul class="nav-menu">
+          <li><img id="dots2" src="./images/Group98.jpg" alt="mobile-menu-image"></li>
+           <li><img src="./images/image_dots.png" id="dots1" alt="mobile-menu-image">
+           </li>
+            <li class="nav-item">
+                <a href="#section-main" class="nav-link">Hello</a>
+            </li>
+            <li class="nav-item">
+                <a href="#project-sections" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a href="#about-section" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact-form" class="nav-link">contact</a>
+            </li>
+           <li>
+              <img src="./images/image_dots.png" id="dots" alt="">
+            </li>
+            <li>
+              <img src="/images/Mask-Group.jpg" id="img-mobile" alt="mobile-menu">
+            </li>
+        </ul>
+         </nav>
+          </header>
     <main id="section-main">
       <div id="section-main-text">
         <h1>AMBROSE ISIGBA</h1>
@@ -216,6 +233,20 @@
     </section>
     <section id="about-section">
       <div class="about-section-container">
+        <div class="about-section-right">
+          <h2>About</h2>
+          <div id="about-sction-div">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore
+              praesentium, ipsa necessitatibus maioresquaeiusto eveniet
+              asperiores at alias debitis deserunt excepturi, esse sequi.
+            </p>
+            <button type="button">
+              Get my cv
+              <img id="download" src="./images/arrow-right.png" alt="" />
+            </button>
+          </div>
+        </div>
         <div class="about-section-left">
           <div id="about-section-list">
             <div id="language">
@@ -250,23 +281,9 @@
             <img id="teal-img" src="./images/image_dots_with_teal.png" alt="" />
           </div>
         </div>
-        <div class="about-section-right">
-          <h2>About</h2>
-          <div id="about-sction-div">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore
-              praesentium, ipsa necessitatibus maioresquaeiusto eveniet
-              asperiores at alias debitis deserunt excepturi, esse sequi.
-            </p>
-            <button type="button">
-              Get my cv
-              <img id="download" src="./images/arrow-right.png" alt="" />
-            </button>
-          </div>
-        </div>
       </div>
     </section>
-    <section class="contact-form">
+    <section class="contact-form" id="contact-form">
       <div id="contact-form-img">
         <img id="bg-contact-img1" src="./images/image-geometry6b.png" alt="" />
         <img id="bg-contact-img" src="./images/image-header.png" alt="" />
@@ -339,5 +356,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
