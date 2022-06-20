@@ -691,13 +691,30 @@ header {
   display: flex;
 }
 
+#dots {
+  width: 50px;
+  height: 50px;
+  right: 20%;
+  position: relative;
+  
+}
+
+#dots1 {
+  width: 50px;
+  height: 50px;
+  left: 20%;
+  position: relative;
+
+}
+
 li {
   list-style: none;
 }
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #1a2236;
+  
 }
 
 .navbar {
@@ -771,10 +788,10 @@ a {
   flex-direction: column;
   text-align: center;
   transition: 1s;
-  background-color: rgba(252, 159, 159, 0.654);
   width: 100%;
   color: #1a2236;
   right: 50%;
+  margin-bottom: 50px;
 }
 
 .nav-item {
