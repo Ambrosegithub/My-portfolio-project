@@ -345,7 +345,7 @@ form {
   margin-top: 0;
 }
 
-#project-sections h2 {
+#project-container h2 {
   text-align: start;
   font-size: 24px;
   font-weight: 700;
@@ -1477,7 +1477,7 @@ header {
     padding: 10px;
   }
 
-  #proj1 {
+  .proj1 {
     -webkit-animation: spin 4s linear infinite;
     animation: spin 4s linear infinite;
   }
