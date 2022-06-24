@@ -42,7 +42,7 @@ storeData();
 const email1 = document.getElementById('user_email');
 const form1 = document.getElementById('userContactForm');
 const errorElement1 = document.getElementById('Error-messages');
-errorElement1.style.color='red'
+errorElement1.style.color = 'red';
 function checkForm() {
   if (email1.value.match(/^[a-z@.0-9-_]*$/)) {
     return true;
