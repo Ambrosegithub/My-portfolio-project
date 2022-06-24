@@ -11,7 +11,7 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
   navMenu.classList.remove('active');
 }));
 
-//storage
+// storage
 
 const name = document.querySelector('#user_name');
 const email = document.querySelector('#user_email');
@@ -37,4 +37,3 @@ function storeData() {
 }
 
 storeData();
-
