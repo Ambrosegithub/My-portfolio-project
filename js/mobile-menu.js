@@ -17,7 +17,7 @@ const name = document.querySelector('#user_name');
 const email = document.querySelector('#user_email');
 const message = document.querySelector('#user-text');
 
-function storage(name, email, message) {
+function preserve(name, email, message) {
   const saver = JSON.stringify({ name, email, message });
   localStorage.setItem('data', saver);
 }
@@ -31,9 +31,9 @@ function storeData() {
     message.value = data.message;
   }
 
-  name.addEventListener('input', () => storage(name.value, email.value, message.value));
-  email.addEventListener('input', () => storage(name.value, email.value, message.value));
-  message.addEventListener('input', () => storage(name.value, email.value, message.value));
+  name.addEventListener('input', () => preserve(name.value, email.value, message.value));
+  email.addEventListener('input', () => preserve(name.value, email.value, message.value));
+  message.addEventListener('input', () => preserve(name.value, email.value, message.value));
 }
 
 storeData();
