@@ -220,6 +220,12 @@ nav .navbar-list-items a {
   border: 3px solid #6da1a8;
 }
 
+#Error-messages {
+  color: red;
+  padding: 10px;
+  border: 1px solid red;
+}
+
 #section-main button {
   color: #fff;
   align-items: center;
