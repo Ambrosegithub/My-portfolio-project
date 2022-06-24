@@ -47,7 +47,7 @@ function checkForm() {
   if (email1.value.match(/^[a-z@.0-9-_]*$/)) {
     return true;
   }
-  errorElement1.innerText = 'please enter the email correctly in lower case';
+  errorElement1.textContent = 'please enter the email correctly in lower case';
   return false;
 }
 form1.addEventListener('submit', (e) => {
