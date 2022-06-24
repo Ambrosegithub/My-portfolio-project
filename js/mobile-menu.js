@@ -37,3 +37,23 @@ function storeData() {
 }
 
 storeData();
+
+// validating form for user's experience
+const email1 = document.getElementById('user_email');
+const form1 = document.getElementById('userContactForm');
+const errorElement1 = document.getElementById('Error-messages');
+function checkForm() {
+  if (email1.value.match(/^[a-z@.0-9-_]*$/)) {
+    return true;
+  }
+  errorElement1.innerText = 'please enter the email correctly in lower case';
+  return false;
+}
+form1.addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  if (checkForm()) {
+    form1.submit();
+  }
+  checkForm();
+});

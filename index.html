@@ -295,7 +295,7 @@
           dolorum perspiciatis rerum molestiae dicta aperiam libero quod
           officiis odio.
         </p>
-        <form action="https://formspree.io/f/mpzbbknz" method="POST">
+        <form id="userContactForm" action="https://formspree.io/f/mpzbbknz" method="POST">
           <div class="form-dir">
             <label for="user_name" id="name">
               <span>Name</span>
@@ -327,8 +327,11 @@
             required
             maxlength="500"
           ></textarea>
-          <label for="buttons"
-            ><button id="buttons" type="submit">
+          <div id="Error-messages">
+            <small id="email-error"></small>
+             </div>
+          <label for="buttons">
+            <button id="buttons" type="submit">
               Start Colaboration
             </button></label
           >
