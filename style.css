@@ -1174,7 +1174,6 @@ header {
     height: 100px;
     right: -51%;
     margin-top: -200px;
-    border: 2px solid red;
   }
 
   #img-geo {
@@ -1184,14 +1183,12 @@ header {
     top: 2000px;
     width: 200px;
     height: 200px;
-    border: 2px solid red;
   }
 
   #full-section-div4 {
     width: 32%;
     margin-left: 50%;
     margin-top: 0;
-    border: 2px solid yellow;
   }
 
   #full-section-div4::before {
@@ -1479,7 +1476,7 @@ header {
     padding: 10px;
   }
 
-  #proj1 {
+  .proj1 {
     -webkit-animation: spin 4s linear infinite;
     animation: spin 4s linear infinite;
   }
