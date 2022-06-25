@@ -345,7 +345,7 @@ form {
   margin-top: 0;
 }
 
-#project-sections h2 {
+#proj1 {
   text-align: start;
   font-size: 24px;
   font-weight: 700;
@@ -874,7 +874,7 @@ header {
     text-align: center;
   }
 
-  #project-container h2 {
+  #proj1 {
     transform: rotate(-90deg);
     font-size: 110px;
     font-family: 'Poppins', sans-serif;
@@ -1079,7 +1079,6 @@ header {
     width: 32.5%;
     margin-top: 555px;
     right: -32%;
-    z-index: 1;
   }
 
   #list-of-project2-imgb {
@@ -1128,8 +1127,8 @@ header {
     content: url(./images/image-geometry2.png);
     margin-right: 100%;
     position: absolute;
-    margin-top: -25%;
-    right: 0;
+    margin-top: -22%;
+    right: 70px;
   }
 
   .list-of-ptoject1 {
@@ -1142,7 +1141,7 @@ header {
     width: 35.4%;
     height: auto;
     margin-left: 0;
-    margin-top: -17%;
+    margin-top: -10%;
     margin-right: 0;
   }
 
@@ -1151,7 +1150,7 @@ header {
     width: 50.6%;
     height: auto;
     margin-right: -100%;
-    margin-top: -25%;
+    margin-top: -17%;
   }
 
   #desktop-img1a {
@@ -1477,7 +1476,7 @@ header {
     padding: 10px;
   }
 
-  #proj1 {
+  .proj1 {
     -webkit-animation: spin 4s linear infinite;
     animation: spin 4s linear infinite;
   }
