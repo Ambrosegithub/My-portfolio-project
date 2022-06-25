@@ -12,18 +12,13 @@ body {
 }
 
 .modal {
+  width: 100vw;
+  height: 100vh;
   position: fixed;
-  background-color: #fff;
-  z-index: 1008;
   top: 0;
   left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
   display: none;
-  grid-template-columns: 1fr;
-  overflow: auto;
+  background-color: #1a2236;
 }
 
 .close {
@@ -175,21 +170,13 @@ body {
 
 @media only screen and (min-width: 768px) {
   .modal {
+    width: 100vw;
+    height: 100vh;
     position: fixed;
-    background-color: #fff;
-    z-index: 10000;
-    height: 100%;
-    display: none;
-    bottom: 0;
-    left: 0;
-    right: 0;
     top: 0;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    margin: 0 0;
-
-    /* border: 20px solid #1a2236; */
+    left: 0;
+    display: none;
+    background-color: #fff;
   }
 
   .modal-content {
@@ -245,7 +232,7 @@ body {
     height: auto;
   }
 
-  #desk {
+  #desk5 {
     width: 20%;
     height: auto;
   }
